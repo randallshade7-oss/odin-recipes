@@ -1,0 +1,1 @@
+This project displays a basic HTML page containing links to various recipes.
