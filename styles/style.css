@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    background-color: white;
+}
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Verdana', 'Tahoma', 'sans-serif';
+    background-color: #add8e6;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 8px;
+}
+a {
+    color: inherit;
+    
+}
+
+
+
+
+/* 
+
+Key discoveries:
+HTML gets the same background-color as the body.
+Rad this article for more info: https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/
+
+Body has a offset of few pixels from the top when I added background-color to it.
+It is due to margin-collapsing. The margins of h1 and that of body have nothing separating them, no content, no padding.
+As they are touching each other, they are collapsing and the body is getting offset, moving few pixels downwards
+due to the margin of h1.
+*/
+
