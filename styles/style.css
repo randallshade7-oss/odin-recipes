@@ -13,22 +13,31 @@ body {
     background-color: #add8e6;
     width: 80%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 40px;
+}
+
+h1{
     text-align: center;
 }
-
-ul {
+.link-list {
     list-style: none;
 }
-
 li {
     margin: 8px;
 }
 a {
-    color: inherit;
+    display: block;
+    font-weight: 700;
+    color: darkgreen;
+    text-align: center;
+
     
 }
-
+img {
+    display: block;
+    width: 500px;
+    margin: 30px auto;
+}
 
 
 
